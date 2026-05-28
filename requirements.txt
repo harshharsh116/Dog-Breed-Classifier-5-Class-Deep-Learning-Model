@@ -1,0 +1,15 @@
+# Core Deep Learning
+tensorflow==2.15.0
+tensorflow-addons==0.23.0
+
+# Web App
+streamlit==1.38.0
+
+# Image Processing & Utils
+pillow==10.4.0
+numpy==1.26.4
+matplotlib==3.9.2
+
+# Optional but Recommended
+scikit-learn==1.5.1
+opencv-python==4.10.0.84
