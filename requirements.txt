@@ -1,15 +1,14 @@
-# Core Deep Learning
-tensorflow==2.15.0
-tensorflow-addons==0.23.0
+# Deep Learning
+tensorflow==2.16.1
+tensorflow-cpu==2.16.1   # Use CPU version (recommended for Streamlit Cloud)
 
-# Web App
+# Web Framework
 streamlit==1.38.0
 
-# Image Processing & Utils
+# Image & Array Processing
 pillow==10.4.0
 numpy==1.26.4
-matplotlib==3.9.2
 
-# Optional but Recommended
-scikit-learn==1.5.1
-opencv-python==4.10.0.84
+# Optional but useful
+matplotlib==3.9.2
+opencv-python-headless==4.10.0.84
